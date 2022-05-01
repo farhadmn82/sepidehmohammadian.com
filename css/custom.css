@@ -1,0 +1,132 @@
+/*!
+  * Item: Kitzu
+  * Description: Personal Portfolio Template
+  * Author/Developer: Exill
+  * Author/Developer URL: https://themeforest.net/user/exill
+  * Version: v2.0.0
+  * License: Themeforest Standard Licenses: https://themeforest.net/licenses
+  */
+
+/*----------- ADD YOUR CUSTOM CSS STYLES BELOW -----------*/
+html {
+  scroll-behavior: smooth;
+}
+.portf-div{
+	width: 100%;
+	padding-top:64px;
+}
+.portf-image{
+	width: 50%;
+    display: inline-block;
+	
+}
+.portf-image img{
+	width: -webkit-fill-available;
+}
+.portf-descr{
+	width: 46%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2%;	
+}
+.portf-descr-title{
+	font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: white;
+}
+.portf-descr-text{
+	
+}
+@media (max-width: 767.98px) {
+	.portf-image{
+	width: 100%;
+    display: inline-block;
+	
+	}
+	.portf-descr{
+		width: 96%;
+		padding-top: 40px;
+	}
+	.portf-descr_video{
+		padding-top: 0px;
+	}
+	
+}
+
+@media (max-width: 575.98px) {
+  
+}
+
+.inline-photo {
+  border: 1em solid #fff;
+  border-bottom: 4em solid #fff;
+  border-radius: .25em;
+  box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
+  margin: 2em auto;
+  max-width: 600px;
+  opacity: 0;
+  -webkit-transform: translateY(4em) rotateZ(-5deg);
+          transform: translateY(4em) rotateZ(-5deg);
+  -webkit-transition: opacity .3s .25s ease-out,
+              -webkit-transform 4s .25s cubic-bezier(0,1,.3,1);
+  transition: opacity .3s .25s ease-out,
+              -webkit-transform 4s .25s cubic-bezier(0,1,.3,1);
+  transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+              opacity .3s .25s ease-out;
+  transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+              opacity .3s .25s ease-out,
+              -webkit-transform 4s .25s cubic-bezier(0,1,.3,1);
+  width: 90%;
+
+  will-change: transform, opacity;
+}
+
+.inline-photo.is-visible {
+  opacity: 1;
+  -webkit-transform: rotateZ(-2deg);
+          transform: rotateZ(-2deg);
+}
+
+
+.inline-photo_simple {
+  border: 0em solid #fff;
+  border-bottom: 0em solid #fff;
+  border-radius: .25em;
+  box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
+  margin: 2em auto;
+  max-width: 600px;
+  opacity: 1;
+  -webkit-transform: translateY(1em) rotateZ(-5deg);
+  transform: translateY(1em) rotateZ(-5deg);
+  width: 90%;
+  transition: width 2s;
+  -webkit-transition: width 2s;
+}
+.inline-photo_simple:hover{
+	
+}
+
+.list-inline-item a:hover{
+	color: #00bd7a;
+}
+.list-inline-item a {
+    color: #cecece;
+}
+
+.portf_category_title{
+	padding-top: 100px;
+    text-align: center;
+    border-bottom: 1px solid;
+    line-height: 0px;
+}
+
+.portf_category_title span{
+	background-color: #101010;
+    padding: 0px 10px;
+}
+
+.portf-image iframe{
+	width: 100%;
+	height: 270px;
+}

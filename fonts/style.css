@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'FF Tisa Sans Pro';
+    src: local('FF Tisa Sans Pro Italic'), local('FF-Tisa-Sans-Pro-Italic'),
+        url('TisaSansPro-Italic.woff2') format('woff2'),
+        url('TisaSansPro-Italic.woff') format('woff'),
+        url('TisaSansPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
